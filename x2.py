@@ -3,8 +3,9 @@ print("hello python hello")
 dir = os.getcwd()
 print(dir)
 f = open('./myname.txt', 'r+')
-f.write('x')
+
 x = f.readline()
+print("i'm here : ", x)
 if 'Gildong' in x:
     x.replace('Gildong', 'DangMoo')
 f.close()
