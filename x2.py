@@ -10,6 +10,8 @@ while 1:
     print(line)
     if "Gildong" in line:
         ff.write(line.replace("Gildong", "DangMoo"))
+    elif "115200" in line:
+        ff.write(line.replace("115200", "9600"))
     else:
         ff.write(line)
     if not line:
