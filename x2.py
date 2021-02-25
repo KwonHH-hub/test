@@ -2,18 +2,20 @@ import os
 print("hello python hello")
 dir = os.getcwd()
 print(dir)
-f = open('./myname.txt', 'r+')
-temp = ""
+f = open('./myname.txt', 'r')
+ff = open('./myname.txt', 'w')
+
 while 1:
     line = f.readline()
     print(line)
     if "Gildong" in line:
-        temp += f.write(line.replace("Gildong", "DangMoo"))
+        ff.write(line.replace("Gildong", "DangMoo"))
     else:
-        temp += f.write(line)
-    temp += '\n'
+        ff.write(line)
     if not line:
         break
+f.close()
+ff.close()
 
 
 # f.close()
