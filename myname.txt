@@ -1,0 +1,4 @@
+my name is Hong Gildong
+I use my port for 22
+I use Baud Rate for 1152000
+Communication is happy
