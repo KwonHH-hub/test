@@ -8,5 +8,5 @@ x = f.readline()
 print("i'm here : ", x)
 if "Gildong" in x:
     print("if문 들어오니")
-    x.replace("Gildong", "DangMoo")
+    x.replace("Gildong", "DangMoo", 1)
 f.close()
