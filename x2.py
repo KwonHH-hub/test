@@ -2,7 +2,7 @@ import os
 print("hello python hello")
 dir = os.getcwd()
 print(dir)
-f = open('./myname.txt', 'a')
+f = open('./myname.txt', 'r+')
 
 x = f.readline()
 print("i'm here : ", x)
