@@ -6,6 +6,7 @@ f = open('./myname.txt', 'r+')
 
 while 1:
     line = f.readline()
+    print(line)
     if "Gildong" in line:
         f.write(line.replace("Gildong", "DangMoo"))
     else:
