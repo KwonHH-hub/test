@@ -3,7 +3,7 @@ print("hello python hello")
 dir = os.getcwd()
 print(dir)
 f = open('./myname.txt', 'r')
-ff = open('./myname.txt', 'w')
+ff = open('./myname2.txt', 'w')
 
 while 1:
     line = f.readline()
